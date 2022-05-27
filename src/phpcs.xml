@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="pcsg-generated-ruleset">
+    <description>
+        Created with the PHP Coding Standard Generator. http://edorian.github.com/php-coding-standard-generator/
+    </description>
+    <rule ref="PEAR">
+        <exclude name="PEAR.Commenting.FileComment" />
+        <exclude name="PEAR.Commenting.ClassComment" />
+        <exclude name="PEAR.Commenting.FunctionComment" />
+    </rule>
+    <exclude name="Generic.Files.LineLength" />
+    <rule ref="Zend.NamingConventions.ValidVariableName"/>
+    <rule ref="rulesets/naming.xml/ShortVariable">
+        <properties>
+            <property name="minimum" value="1"/>
+        </properties>
+    </rule>
+    <rule ref="rulesets/naming.xml/ShortMethodName"/>
+</ruleset>

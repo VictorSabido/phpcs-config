@@ -1,0 +1,10 @@
+{
+    "name": "victor/phpcs-config",
+    "type": "metapackage",
+    "autoload": {
+        "psr-4": {
+            "Victor\\PhpcsConfig\\": "src/"
+        }
+    },
+    "require": {}
+}
