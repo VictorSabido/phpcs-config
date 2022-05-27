@@ -1,10 +1,9 @@
 {
     "name": "victorsabido/phpcs-config",
-    "type": "metapackage",
-    "autoload": {
-        "psr-4": {
-            "Victor\\PhpcsConfig\\": "src/"
-        }
-    },
-    "require": {}
+    "description": "Own PHP Coding Standards.",
+    "type": "phpcodesniffer-standard",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2 <8"
+    }
 }
