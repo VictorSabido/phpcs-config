@@ -1,5 +1,5 @@
 {
-    "name": "victor/phpcs-config",
+    "name": "victorsabido/phpcs-config",
     "type": "metapackage",
     "autoload": {
         "psr-4": {
