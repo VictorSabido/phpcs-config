@@ -15,7 +15,7 @@ class PhpcsServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/ruleset.xml' => base_path('ruleset.xml')
-        ], 'config');
+        ], 'vsabido-phpcs');
     }
 
     /**
